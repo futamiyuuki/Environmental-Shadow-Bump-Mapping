@@ -1,0 +1,34 @@
+﻿Build started 6/7/2015 4:04:50 PM.
+     1>Project "C:\CSE125\ogldev\ogldev-source\Windows\ogldev\Common.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\CSE125\ogldev\ogldev-source\Windows\ogldev\\..\..\Include" /I"C:\CSE125\ogldev\ogldev-source\Windows\ogldev\\..\..\Include\assimp" /I"C:\CSE125\ogldev\ogldev-source\Windows\ogldev\\..\..\Include\ImageMagick-6" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release2\\" /Fd"Release2\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\Common\glut_backend.cpp ..\..\Common\ogldev_backend.cpp ..\..\Common\ogldev_glfw_backend.cpp
+         glut_backend.cpp
+         Generating Code...
+         Compiling...
+         ogldev_glfw_backend.cpp
+     1>c:\cse125\ogldev\ogldev-source\common\ogldev_glfw_backend.cpp(210): warning C4305: 'argument' : truncation from 'double' to 'GLclampf'
+         ogldev_backend.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\CSE125\ogldev\ogldev-source\Windows\ogldev\Release2\Common.lib" /NOLOGO Release2\camera.obj
+         Release2\cubemap_texture.obj
+         Release2\glut_backend.obj
+         Release2\io_buffer.obj
+         Release2\math_3d.obj
+         Release2\ogldev_app.obj
+         Release2\ogldev_backend.obj
+         Release2\ogldev_basic_lighting.obj
+         Release2\ogldev_basic_mesh.obj
+         Release2\ogldev_glfw_backend.obj
+         Release2\ogldev_skinned_mesh.obj
+         Release2\ogldev_texture.obj
+         Release2\ogldev_util.obj
+         Release2\pipeline.obj
+         Release2\random_texture.obj
+         Release2\technique.obj
+         Common.vcxproj -> C:\CSE125\ogldev\ogldev-source\Windows\ogldev\Release2\Common.lib
+     1>Done Building Project "C:\CSE125\ogldev\ogldev-source\Windows\ogldev\Common.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.57
